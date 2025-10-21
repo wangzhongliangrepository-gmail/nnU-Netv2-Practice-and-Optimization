@@ -3,6 +3,17 @@
 nnU-Net v2 无需命令行参数,直接运行
 步骤可按开关选择：转换→预处理→训练→验证npz→推理
 """
+
+"""
+克隆dynamic-network-architectures源码到本地：
+
+git clone https://github.com/MIC-DKFZ/dynamic-network-architectures.git
+cd dynamic-network-architectures
+
+pip install -e .
+
+
+"""
 from __future__ import annotations
 from pathlib import Path
 import os, sys, shlex, subprocess
